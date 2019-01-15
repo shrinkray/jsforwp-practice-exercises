@@ -16,6 +16,7 @@ displayName()
 
 // 3. Create an object called "me" that includes properties for your first and last names as well as other properties for your website and social media
 
+// Object declaration and properties
 var thisIsMe = {
     first: 'Greg',
     last: 'Miller',
@@ -26,7 +27,14 @@ console.log('Hello ' + thisIsMe.last);
 
 // 4. Create a boolean variable called loggedIn (set to either true or false)
 
+var loggedIn = true;
+    isLoggedIn = 'Logged In';
+    notLoggedIn = 'Please login';
+
 // 5. Write a conditional statement that logs "Logged In" when loggedIn is true and "Please login" when loggedIn is false
+
+// Ternary formatted conditional
+loggedIn ? console.log(isLoggedIn) : console.log(notLoggedIn);
 
 // 6. Create an array called ids filled with numbers that could represent post ids
 
