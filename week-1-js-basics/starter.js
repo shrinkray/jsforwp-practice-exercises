@@ -16,6 +16,14 @@ displayName()
 
 // 3. Create an object called "me" that includes properties for your first and last names as well as other properties for your website and social media
 
+var thisIsMe = {
+    first: 'Greg',
+    last: 'Miller',
+    webUrl: 'https://gregmiller.io',
+    twitter: '@grmiller'
+}
+console.log('Hello ' + thisIsMe.last);
+
 // 4. Create a boolean variable called loggedIn (set to either true or false)
 
 // 5. Write a conditional statement that logs "Logged In" when loggedIn is true and "Please login" when loggedIn is false
