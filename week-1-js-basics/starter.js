@@ -1,6 +1,18 @@
 // 1. Create a variable with your name
 
+let me = "Greg Miller"
+console.log(me);
+
 // 2. Create a function that logs your name with console.log()
+
+// Function Declaration
+function displayName() {
+
+    console.log(me);
+}
+
+// Function Call
+displayName()
 
 // 3. Create an object called "me" that includes properties for your first and last names as well as other properties for your website and social media
 
