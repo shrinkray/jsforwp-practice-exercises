@@ -51,8 +51,37 @@ for ( var i in id ) {
 
 // 8. Create an array of post objects.  Include an id, title and content property on each object
 
+var posts = [
+    {
+        id: 12,
+        title: 'The Taming of the Shrew',
+        content: 'A wealthy Padua merchant, Baptista, has two daughters. One day Lucentio, a student, comes to Padua, sees Bianca, the younger sister, and falls madly in love with her.'
+    },
+    {
+        id: 14,
+        title: 'The Merchant of Venice',
+        content: 'The play ends with the lovers all together, as usual, celebrating their love and the way things have turned out well for their group.'
+    }, 
+    {
+        id: 16,
+        title: 'A Midsummer Night’s Dream',
+        content: 'The Duke tells Hermia to obey her father, or either die or accept a life as a nun in Diana’s temple.'
+    }
+];
+
 
 
 // 9. Loop over the array of posts and log out the title of each one
 
+console.log( posts );
+
+
 // 10. Create a function that will take an array of posts and log out the title and content of each post.
+
+// Currently not working
+posts.displayPost = function () {
+    console.log( this.title );
+    console.log( this.content );
+}
+
+posts.displayPost()
