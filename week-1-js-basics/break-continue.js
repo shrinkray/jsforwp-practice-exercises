@@ -44,9 +44,7 @@ var categories = ['Javascript', 'WordPress', 'API', 'React', 'JSON'],
 for (var i = 0; i < max; i++) {
     console.log(categories[i]);
 
-    // I don't have a clear understanding of this one
+    // TODO: I don't have a clear understanding of this one
     if ('API' === categories[i]) continue; // continues when condition met
-
-   
 
 }
