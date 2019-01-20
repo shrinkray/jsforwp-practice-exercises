@@ -1,7 +1,7 @@
 // 1. Create a variable with your name
 
-let me = "Greg Miller"
-console.log(me);
+let me = "Greg Miller" // use single quotes
+
 
 // 2. Create a function that logs your name with console.log()
 
@@ -85,3 +85,10 @@ posts.displayPost = function () {
 }
 
 posts.displayPost()
+
+for ( var post of posts ) {
+    console.log(this.title); 
+}
+// for (var i = 0; max = posts.length; i < max;)  {
+                                      
+// }
