@@ -71,7 +71,7 @@ for (var i in postIDs ) {
 
  var postIds = [ 1, 3, 5, 7, 22 ];
 
- for ( var thing of postIds ) {
-     console.log( thing );
+ for ( var id of postIds ) {
+     console.log( id );
      
  }
