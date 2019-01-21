@@ -39,7 +39,7 @@
             console.log( '<p>Related Posts</p>');
             console.log( '<ul>');
             
-            for ( var post of relatedPosts ) {
+            for ( var post of relatedPosts ) { // The 'for ... of' is best for arrays
                 console.log("<li>" + post + "</li>");
             }
             console.log('</ul>');
