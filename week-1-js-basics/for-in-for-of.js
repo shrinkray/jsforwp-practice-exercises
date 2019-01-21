@@ -36,7 +36,7 @@ for ( var prop in post ) {
 //                                       ^ we use this dot notation
 
 /**
- * FOR IN WITH ARRAYS
+ * 'FOR IN' WITH ARRAYS
  * 
  *  While we can use this with arrays since the array is a type of object, 
  *  We use For In for objects with properties, not for arrays
@@ -54,7 +54,7 @@ for (var i in postIDs ) {
 
 
 /**
- *    FOR OF LOOP
+ *    'FOR OF' LOOP
  * 
  *  Best for Arrays
  *  
